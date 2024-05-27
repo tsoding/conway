@@ -38,7 +38,7 @@ f,b,sizeof(f)    );printf("\033" "[%dA\033[%dD"
 ## Build the Obfuscated Version
 
 ```console
-$ gcc -w -o conway conway.c
+$ gcc -std=c90 -w -o conway conway.c
 $ ./conway
 ```
 
